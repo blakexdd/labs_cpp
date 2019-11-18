@@ -21,7 +21,7 @@ int main(void)
 {
 	/* initializing variables */
 	double sum = 0;
-	int const n = 100;
+	int const n = 10;
 	double nums[n];
 
 	/* filid array with random numbers */
@@ -29,11 +29,12 @@ int main(void)
 		nums[i] = (rand() % 100);
 
 	/* creating file */
-	std::ofstream out("test.txt", std::ios::out || std::ios::binary);
+	std::ofstream out("test.txt", std::ios::out | std::ios::binary);
 
 	/* checking for file to create */
 	if (!out)
 	{
+		/* raising error if file haven't opened */
 		std::cout << "Error creating file\n";
 		return 1;
 	}
@@ -74,7 +75,7 @@ int main(void)
 	std::string s;
 
 	std::cout << "Input string: ";
-	std::getline(std::cin, s);
+	getline(std::cin, s);
 	printf(s);
 
 	/* to keep console awake */
