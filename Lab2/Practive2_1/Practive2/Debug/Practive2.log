@@ -1,0 +1,5 @@
+﻿  Practice2_1.cpp
+c:\users\gololobov\desktop\labs_prog\lab2\practive2_1\practive2\practice2_1.cpp(10): warning C4101: year: неиспользованная локальная переменная
+c:\users\gololobov\desktop\labs_prog\lab2\practive2_1\practive2\practice2_1.cpp(10): warning C4101: y: неиспользованная локальная переменная
+c:\users\gololobov\desktop\labs_prog\lab2\practive2_1\practive2\practice2_1.cpp(10): warning C4101: x: неиспользованная локальная переменная
+  Practive2.vcxproj -> C:\Users\Gololobov\Desktop\labs_prog\Lab2\Practive2_1\Debug\Practive2.exe

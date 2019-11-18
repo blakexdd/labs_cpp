@@ -1,0 +1,3 @@
+﻿  Practice3_2.cpp
+c:\users\gololobov\desktop\labs_prog\lab3\practice3_2\practice3_2\header.h(105): warning C4244: return: преобразование "double" в "FLT", возможна потеря данных
+  Practice3_2.vcxproj -> C:\Users\Gololobov\Desktop\labs_prog\Lab3\Practice3_2\Debug\Practice3_2.exe

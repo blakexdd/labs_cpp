@@ -37,7 +37,7 @@ public:
 	double Square()
 	{
 		/* initializing sides of triangle and square */
-		double p = s1 + s2 + s3 / 3.0;
+		double p = (s1 + s2 + s3) / 2.0;
 		double S = sqrt(p * (p - s1) * (p - s2) * (p - s3));
 
 		/* returning square value */
