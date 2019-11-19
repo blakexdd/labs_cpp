@@ -11,7 +11,7 @@
 /* Printing some text in file.
 * ARGUMENTS:
 *   - string of text:
-*      char * s;
+*      std::string s
 * RETURNS:
 *   None.
 */
@@ -74,13 +74,19 @@ int main(void)
 	/* initializing string */
 	std::string s;
 
-	std::cout << "Input string: ";
-	getline(std::cin, s);
-	printf(s);
+    /* reading narrative from console and writing
+	it to file */
+	std::cout << "Input narrative:";
+	while (getline(std::cin, s))
+	{
+		if (s.empty())
+		  break;
+		printf(s);
+	}
 
 	/* to keep console awake */
-	getchar();
-	getchar();
+	//getchar();
+	//getchar();
 
 	return 0;
 }
@@ -88,15 +94,18 @@ int main(void)
 /* Printing some text in file.
 * ARGUMENTS:
 *   - string of text:
-*      char * s;
+*      std::string s
 * RETURNS:
 *   None.
 */
 void printf(std::string s)
 {
-	std::ofstream file("out1.txt", std::ios::out);
+	/* initializing file variable */
+	std::ofstream file("out1.txt", std::ios::app);
 
-	file.write(s.c_str(), s.size());
+    /* writing string to file */
+	file << s << '\n';
 
+    /* closing file */
 	file.close();
 }

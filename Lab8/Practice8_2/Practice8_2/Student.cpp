@@ -99,6 +99,7 @@ double Student::get_average_score()
 */
 Student::Student(std::string name, std::string last_name)
 {
+	/* setting name and last name */
 	Student::set_name(name);
 	Student::set_last_name(last_name);
 }

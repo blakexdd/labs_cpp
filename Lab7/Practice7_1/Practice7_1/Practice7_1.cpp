@@ -8,6 +8,7 @@
 /* Distance in feets and inches struct */
 struct Distance
 {
+	/* feets and inches variables */
 	int feet;
 	double inches;
 

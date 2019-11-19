@@ -7,7 +7,6 @@
 #include <string>
 #include <fstream>
 
-
 class Student
 {
 public:
