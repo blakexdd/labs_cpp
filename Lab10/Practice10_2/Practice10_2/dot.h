@@ -13,13 +13,6 @@ private:
 	double x;
 	double y;
 public:
-
-	/* Default dot constructor.
-	* ARGUMENTS:
-	*   - None
-	* RETURNS:
-	*   - None
-	*/
 	Dot();
 
 	/* Dot constructor.

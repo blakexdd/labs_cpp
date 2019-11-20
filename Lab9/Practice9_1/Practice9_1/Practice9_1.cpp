@@ -56,13 +56,9 @@ int main(void)
 		double average_score = sum / 5.0;
 
 		/* assigning average score to class Student */
-		//student01.set_average_score(average_score);
 		student02->set_average_score(average_score);
 
 		/* printing information about student */
-		//std::cout << "Average ball for " << student01.get_name() << " "
-		//	<< student01.get_last_name() << " is "
-		//	<< student01.get_average_score() << std::endl;
 		std::cout << "Average ball for " << student02->get_name() << " "
 			<< student02->get_last_name() << " is "
 			<< student02->get_average_score() << std::endl;

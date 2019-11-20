@@ -3,7 +3,7 @@
 * DATE: 28.09.2019
 * PURPOSE: Header file for practice 10 
 */
-#pragma once
+
 #include "IdCard.h"
 
 class Student
@@ -140,6 +140,4 @@ private:
 	std::string name;
 	std::string last_name;
 	IdCard iCard;
-
 };
-

@@ -20,8 +20,10 @@ public:
 	*/
 	Triangle(int a, int b, int c)
 	{
+		/* checking if triangle exists */
 		if (a > b + c || b > a + c || c > a + b)
 			throw Ex("In Triabgle initialization", a, b, c);
+
 		/* assigning values to triangle sides */
 		s1 = a;
 		s2 = b;

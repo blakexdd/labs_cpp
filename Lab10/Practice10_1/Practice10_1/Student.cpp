@@ -3,7 +3,7 @@
 * DATE: 28.09.2019
 * PURPOSE: funcions of class Student file for practice 10
 */
-#include "student.h"
+#include "Student.h"
 
 /* Setting student's name function.
 * ARGUMENTS:

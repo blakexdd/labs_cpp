@@ -3,7 +3,7 @@
 * DATE: 28.09.2019
 * PURPOSE: to check if evetything is working together
 */
-#include "student.h"
+#include "Student.h"
 
 int main(void)
 {

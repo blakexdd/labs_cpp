@@ -3,7 +3,6 @@
 * DATE: 28.09.2019
 * PURPOSE: header file for practice 10
 */
-#pragma once
 #include <iostream>
 #include <string>
 #include <fstream>
