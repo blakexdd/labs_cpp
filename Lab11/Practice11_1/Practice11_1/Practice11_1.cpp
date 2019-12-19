@@ -167,31 +167,33 @@ int main(void)
 {
 	/* initializing distance instances */
 	//Distance dist1, dist2, dist3, dist4, dist5, dist6;
-	int counter = 1;
-	Distance dist1 = 2.35F;
+	//int counter = 1;
+    Distance dist1 = 2.35F;
 	float mtrs;
-
-	/* assigning value using static cast operator */
+	//
+	///* assigning value using static cast operator */
 	mtrs = static_cast<float>(dist1);
 	std::cout << "Meters: " << mtrs;
-
+	
 	mtrs = dist1;
 	std::cout << "New meters: " << mtrs;
 
+	//Distance dist1, dist2, dist3, dist4, dist5, dist6;
 
 	/* assigning values using method getdist */
 	//dist1.getdist();
 	//dist2.getdist();
+
 
 	/* adding and subtracting distances using overloaded operator */
 	//dist3 = dist1 + dist2;
 	//dist4 = dist1 + dist2 + dist3;
 	//dist5 = dist4 - dist1;
 	//dist6 = dist3 - dist1 + dist2;
-
+	//
 	//Distance d[6] = { dist1, dist2, dist3, dist4, dist5, dist6 };
-
-	/* printing out values */
+	//
+	///* printing out values */
 	//for (auto i : d)
 	//{
 	//	std::cout << "\ndist" << counter << " = ";

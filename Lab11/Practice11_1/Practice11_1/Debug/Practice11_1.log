@@ -1,2 +1,5 @@
 ﻿  Practice11_1.cpp
-  Practice11_1.vcxproj -> C:\Users\Gololobov\Documents\GitHub\labs_cpp\Lab11\Practice11_1\Debug\Practice11_1.exe
+c:\users\gololobov\documents\github\labs_cpp\lab11\practice11_1\practice11_1\practice11_1.cpp(189): error C2280: "Distance &Distance::operator =(const Distance &)": предпринята попытка ссылки на удаленную функцию
+  c:\users\gololobov\documents\github\labs_cpp\lab11\practice11_1\practice11_1\practice11_1.cpp(112): note: в этом месте создано компилятором: "Distance::operator ="
+  c:\users\gololobov\documents\github\labs_cpp\lab11\practice11_1\practice11_1\practice11_1.cpp(112): note: "Distance &Distance::operator =(const Distance &)": функция неявно удалена, так как в "Distance" содержится элемент данных "Distance::MTF" не являющего классом типа с квалификатором const
+  c:\users\gololobov\documents\github\labs_cpp\lab11\practice11_1\practice11_1\practice11_1.cpp(14): note:  см. объявление "Distance::MTF"

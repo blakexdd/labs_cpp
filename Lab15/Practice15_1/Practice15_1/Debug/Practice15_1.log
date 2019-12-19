@@ -1,6 +1,13 @@
 ﻿  student.cpp
   Practice5_1.cpp
+c:\users\gololobov\documents\github\labs_cpp\lab15\practice15_1\practice15_1\practice5_1.cpp(33): error C2664: "void Group::addStudent(Student *)": невозможно преобразовать аргумент 1 из "Student" в "Student *"
+  c:\users\gololobov\documents\github\labs_cpp\lab15\practice15_1\practice15_1\practice5_1.cpp(33): note: Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+c:\users\gololobov\documents\github\labs_cpp\lab15\practice15_1\practice15_1\practice5_1.cpp(34): error C2664: "void Group::addStudent(Student *)": невозможно преобразовать аргумент 1 из "Student" в "Student *"
+  c:\users\gololobov\documents\github\labs_cpp\lab15\practice15_1\practice15_1\practice5_1.cpp(34): note: Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+c:\users\gololobov\documents\github\labs_cpp\lab15\practice15_1\practice15_1\practice5_1.cpp(35): error C2664: "void Group::addStudent(Student *)": невозможно преобразовать аргумент 1 из "Student" в "Student *"
+  c:\users\gololobov\documents\github\labs_cpp\lab15\practice15_1\practice15_1\practice5_1.cpp(35): note: Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+c:\users\gololobov\documents\github\labs_cpp\lab15\practice15_1\practice15_1\practice5_1.cpp(36): error C2664: "void Group::addStudent(Student *)": невозможно преобразовать аргумент 1 из "Student" в "Student *"
+  c:\users\gololobov\documents\github\labs_cpp\lab15\practice15_1\practice15_1\practice5_1.cpp(36): note: Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
   IdCard.cpp
   Group.cpp
   Создание кода...
-  Practice15_1.vcxproj -> C:\Users\Gololobov\Documents\GitHub\labs_cpp\Lab15\Practice15_1\Debug\Practice15_1.exe

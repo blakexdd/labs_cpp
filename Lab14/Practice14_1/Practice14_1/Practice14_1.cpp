@@ -29,6 +29,21 @@ void sorting(T arr[], int size)
 	}
 }
 
+/* Printing array function
+* ARGUMENTS:
+*   - array and size of array
+*      T arr[], T size
+* RETURNS:
+*   - None
+*/
+template<class T>
+void printarr(T arr[], int size)
+{
+	for (int i = 0; i < size; i++)
+		std::cout << arr[i] << "; ";
+}
+
+
 /* Template finding average function
 * ARGUMENTS:
 *   - array and size of array
